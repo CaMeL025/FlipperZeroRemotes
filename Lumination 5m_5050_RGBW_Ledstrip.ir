@@ -1,0 +1,62 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: Red
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 58 00 00 00
+# 
+name: Green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 59 00 00 00
+# 
+name: Blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: White
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Up_light
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00
+# 
+name: Down_lightn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+# 
+name: Fade_7
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+# 
+name: Dim
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9035 4590 462 695 466 536 598 589 516 587 571 586 520 588 519 612 572 615 467 1764 543 1685 520 1737 543 1688 543 1790 519 1712 545 1791 438 1738 519 1711 548 587 543 1737 519 1740 517 1738 517 617 517 1712 546 664 466 640 490 1741 517 588 518 690 494 587 521 1736 492 615 518 1763 518 40247 8958 2333 489
+# 
+name: Un_Dim
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5C 00 00 00
