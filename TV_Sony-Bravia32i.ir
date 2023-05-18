@@ -1,0 +1,32 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Off
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+# 
+name: P_up
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: P_do
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 11 00 00 00
+# 
+name: V_u
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: V_d
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 13 00 00 00

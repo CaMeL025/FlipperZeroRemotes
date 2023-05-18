@@ -1,0 +1,98 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On_off
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+# 
+name: Pg_u
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 12 00 00 00
+# 
+name: Pg_d
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00
+# 
+name: Vol_d
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+# 
+name: Vol_u
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: Mute
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 343 9197 142
+# 
+name: Source
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 01 00 00 00
+# 
+name: Guide
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4F 00 00 00
+# 
+name: Gui_u
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4671 4451 658 1607 687 1578 658 1608 633 499 634 500 633 500 633 500 633 501 632 1659 606 1659 606 1659 606 528 630 503 629 505 628 506 627 506 627 506 628 506 627 506 627 506 627 506 627 1639 627 1639 627 506 627 1639 627 1639 627 1639 627 1639 627 1639 627 506 627 506 628 1639 627
+# 
+name: Gui_d
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 61 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 68 00 00 00
+# 
+name: Tools
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4B 00 00 00
+# 
+name: Hdmi
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 8B 00 00 00
+# 
+name: Return
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 58 00 00 00
+# 
+name: P_size
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 3E 00 00 00
+# 
+name: Ch_flip
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 13 00 00 00
